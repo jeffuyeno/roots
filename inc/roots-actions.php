@@ -1,7 +1,7 @@
 <?php
 
 function roots_get_stylesheets() {
-  $styles = '';
+  $styles = '';  
   if (ENV_DEVELOPMENT) {
       $styles .= stylesheet_link_tag('/style.css', 1);
     $styles .= stylesheet_link_tag('/less.php?file=bootstrap');
