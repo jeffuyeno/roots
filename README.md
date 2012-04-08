@@ -1,3 +1,6 @@
+Fork of [Roots Theme](http://rootstheme.com/) that adds dev support for LESS out of the box. Please note that css/less.php should be deleted when going to production, as I haven't put any kind of sanitization in for handling filenames. Also, 'ENV_DEVELOPMENT' should be set to false for production.
+
+
 # [Roots Theme](http://rootstheme.com/)
 
 Roots is a starting WordPress theme made for developers that’s based on [HTML5 Boilerplate](http://html5boilerplate.com/) and Bootstrap from Twitter.
